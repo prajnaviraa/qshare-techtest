@@ -4,6 +4,36 @@ Project for qshare and JAI technical test
 
 This project uses Express.js for server side, Vue.js for client side, and postgreSQL for database.
 
+---
+
+To run this project, please first go to the server folder open terminal and run
+
+```
+npm i
+```
+
+and then
+
+```
+nodemon app.js
+```
+
+---
+
+Once the server is running, please open the terminal for client folder and run
+
+```
+npm i
+```
+
+and then
+
+```
+npm run dev
+```
+
+---
+
 Users will be first directed to login page where they can login.
 For new users, there's an option to register instead.
 After registration user will be ridirected to login page to login.
