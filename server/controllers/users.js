@@ -39,7 +39,7 @@ class UserController {
         throw { name: "Unauthorized" };
       }
 
-      const token = encodeToken({ id: user.id, username: user.username });
+      const token = encodeToken({ id: user.id });
       res.status(200).json({
         access_token: token,
       });
